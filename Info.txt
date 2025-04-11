@@ -1,0 +1,15 @@
+  # Create a virtual environment
+  python3 -m venv ollama_python 
+# Activate the virtual environment
+ ollama_python\Scripts\activate
+# Install ollama
+pip install ollama
+# Install the ipykernel package
+pip install ipykernel
+
+#Create account at ollama.com and download for windows
+# ollama model used  is phi - Small Language Model
+Ollama pull phi
+Ollama run phi – to run a model.
+Ollama list – list all models
+ollama show phi – to show metadata of the model
